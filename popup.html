@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Price Tracker</title>
+  <style>
+    /* Gradient background */
+    body {
+      font-family: Arial, sans-serif;
+      width: 220px;
+      padding: 15px;
+      margin: 0;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: white;
+      box-sizing: border-box;
+    }
+
+    /* Container for inputs */
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    /* Input field styling */
+    input {
+      width: 100%;
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: none;
+      font-size: 14px;
+      outline: none;
+      box-sizing: border-box;
+    }
+
+    /* Button styling */
+    button {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      font-size: 14px;
+      font-weight: bold;
+      background: linear-gradient(90deg, #ff6a00, #ee0979);
+      color: white;
+      cursor: pointer;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    /* Placeholder color */
+    input::placeholder {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <input id="stockSymbolInput" placeholder="Enter stock symbol" />
+    <button id="setSymbolBtn">Set Symbol</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
