@@ -49,4 +49,4 @@ It auto-updates every minute, shows real-time change percentages, and automatica
 
 1. **Clone or Download** this repository  
    ```bash
-   git clone https://github.com/yourusername/nepse-price-tracker.git
+   git clone https://github.com/Tapendra-Bista/price_tracker.git
